@@ -1,0 +1,18 @@
+.links{
+ background-color: aquamarine;
+}
+
+.rechts{
+  background-color: rgb(157, 127, 255);
+
+}
+
+.midden{
+  background-color: rgb(255, 127, 187);
+
+}
+
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: lightblue;
+}
