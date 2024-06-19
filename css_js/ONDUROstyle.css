@@ -1,9 +1,9 @@
-.links{
- background-color: aquamarine;
+.linksleeg{
+ background-color: rgb(254, 13, 13);
 }
 
-.rechts{
-  background-color: rgb(157, 127, 255);
+.rechtsleeg{
+  background-color: rgb(240, 6, 6);
 
 }
 
@@ -12,7 +12,15 @@
 
 }
 
+
+
 *{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: lightblue;
+ 
+}
+
+.tekst{
+  background-color: grey;
+  padding: 20px;
 }

@@ -14,38 +14,70 @@
 
 </head>
 <body>
-  <!-- style grid-->
-  <div class="row" id="navigatieDiv">
+  <!-- style grid - de vormgeving/indeling-->
+  <div class="row" id="navigatieDiv"> <!-- navigatie menu staat in javascript zodat de navigatie menu op elke pagina in 1 x staat-->
     
   </div>
 
   <div class="row">
-    <div class="col-md-2 links">Leeg</div>
-    <div class="col-md-8 midden">Slogan</div>
-    <div class="col-md-2 rechts">
+    <div class="col-md-2 linksleeg">Leeg</div>
+    <div class="col-md-8 midden">Slogan + probeer ONDURO 30 dagen gratis</div>
+    <div class="col-md-2 rechtsleeg">
       <img src="Afbeeldingen/Goede personeelsplanner.jpg" width="150px">
       <a href="contact.html" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Primary link</a>
     </div>
   </div>
 
   <div class="row">
-    <div class="col-md-1 links">Leeg</div>
+    <div class="col-md-1 linksleeg">Leeg</div>
     <div class="col-md-10 midden">Koptekst 'Voordelen ONDURO'</div>
-    <div class="col-md-1 rechts">Leeg</div>
+    <div class="col-md-1 rechtsleeg">Leeg</div>
   </div>
 
   <div class="row">
-    <div class="col-md-4 links">Voordeel 1</div>
+    <div class="col-md-4 links">Voordeel 1
+      <div class="tekst"> Test voordeel 1</div>
+    </div>
     <div class="col-md-4 midden">Voordeel 2</div>
     <div class="col-md-4 rechts">Voordeel 3</div>
   </div>
 
   <div class="row">
     <div class="col-md-6 links">Beeldmateriaal</div>
-    <div class="col-md-6 rechts">Tekst</div>
+    <div class="col-md-6 rechts">Module rooster uitlichten </div>
   </div>
 
-  <script>
+  <div class="row">
+    <div class="col-md-6 links">Module urenregistratie uitlichten</div>
+    <div class="col-md-6 rechts">Beeldmateriaal</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 links">Beeldmateriaal</div>
+    <div class="col-md-6 rechts">Module beschikbaarheid uitlichten</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 links">Module checkin/out uitlichten</div>
+    <div class="col-md-6 rechts">Beeldmateriaal</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 links">Beeldmateriaal</div>
+    <div class="col-md-6 rechts">Module personeelszaken uitlichten</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 links">Module mobiele app uitlichten</div>
+    <div class="col-md-6 rechts">Beeldmateriaal</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 links">Beeldmateriaal</div>
+    <div class="col-md-6 rechts">Altijd in contact met het team</div>
+  </div>
+
+  <script> // hier roep ik de functie aan van JS voor het navigatie menu
     window.onload = function(){
       maakMenu();
     }
